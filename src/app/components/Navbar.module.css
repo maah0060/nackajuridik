@@ -1,0 +1,29 @@
+.navbar {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	color: var(--primaryColor);
+	align-items: center;
+}
+
+.navbarMenu {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	padding: 20px;
+}
+
+.navbarMenu a {
+	color: var(--primaryColor);
+	text-decoration: none;
+}
+
+.navbarItem:hover {
+	opacity: 70%;
+	cursor: pointer;
+}
+
+.navbarLogo {
+	height: 80px;
+	padding: 20px;
+}
