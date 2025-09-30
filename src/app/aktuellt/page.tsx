@@ -14,7 +14,7 @@ export default async function Page() {
 			<ul>
 				{data.posts.nodes.map((p) => (
 					<li key={p.slug}>
-						<a href={`/posts/${p.slug}`}>{p.title}</a>
+						<a href={`/posts/${p.slug}`}> {p.title}</a>
 					</li>
 				))}
 			</ul>

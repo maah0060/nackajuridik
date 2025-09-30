@@ -21,7 +21,9 @@ function Navbar() {
 				<div className={styles.navbarItem}>
 					<Link href="/aktuellt">Aktuellt</Link>
 				</div>
-				<div className={styles.navbarItem}>Om oss</div>
+				<div className={styles.navbarItem}>
+					<Link href={"/the-firm"}>Om oss</Link>
+				</div>
 				<div className={styles.navbarItem}>Nyhetsbrev</div>
 				<div className={styles.navbarItem}>Kontakta oss</div>
 			</div>
